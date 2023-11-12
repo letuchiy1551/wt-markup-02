@@ -2,16 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 0 0;
   font-family: "Roboto", sans-serif;
   color: black;
+  width: 100%;
+}
+main {
+  width: 100%;
+  justify-content: center;
 }
 /* шапка */
 .top-head {
   display: flex;
-  width: 1600px;
   height: 80px;
-  flex-shrink: 0;
+  justify-content: center;
 }
 .top-head a,
 .top-head a:visited {
@@ -87,7 +95,6 @@ body {
 .order {
   margin: 0 0;
   display: flex;
-  width: 1600px;
   height: 600px;
   flex-direction: column;
   justify-content: center;
@@ -125,13 +132,12 @@ body {
 
 /*advantages block*/
 .advantages {
-  width: 1600px;
+  display: flex;
+  justify-content: center;
 }
 .advantages ul {
   display: flex;
-  width: 1170px;
   height: 251px;
-  flex-shrink: 0;
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
@@ -265,7 +271,8 @@ body {
 /*footer*/
 footer {
   display: flex;
-  width: 1600px;
+  justify-content: center;
+  width: 100%;
   height: 252px;
   background: #2f303a;
 }
@@ -275,7 +282,6 @@ footer a:visited {
   color: white;
 }
 footer div:nth-of-type(1) {
-  margin-left: 215px;
   margin-right: 40px;
 }
 footer a .blue-text {
